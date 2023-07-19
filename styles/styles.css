@@ -5,7 +5,7 @@
 
 *{
   margin: 0;
-  padding: 0;  
+  padding: 0;
 }
 
 .grid-container{
@@ -13,7 +13,7 @@
   grid-template-columns: 1fr 4fr;
   grid-template-rows: 1fr 5fr;
   height: 140vh;
-  width: 100vw;
+  width: 98.7vw;
 }
 
 .dashboard-container{
@@ -188,9 +188,9 @@ button{
 
 .main-grid{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr .64fr;
   grid-template-rows: 1fr 1fr 1fr;
-  width: 57vw;
+  width: 76vw;
   height: 110vh;
   margin-top: 2vh;
   gap: 15px;
@@ -201,6 +201,7 @@ button{
   height: 100%;
   background-color: white;
   border-radius: 10px;
+  box-shadow: 0px 2px 3px rgb(175, 175, 175);
 }
 
 .project-title{
@@ -231,4 +232,69 @@ button{
 
 .second-buttons{
   margin-top: 5%;
+}
+
+.third{
+  grid-row: 2/3;
+  grid-column: 1/2;
+}
+
+.fourth{
+  grid-row: 2/3;
+  grid-column: 2/3;
+}
+
+.fifth{
+  grid-row: 3/4;
+  grid-column: 1/2;
+}
+
+.last{
+  grid-row: 3/4;
+  grid-column: 2/3;
+}
+
+.announcements-container{
+  grid-row: 1/4;
+  grid-column: 3/4;
+  font-size: .6rem;
+}
+
+.top-announcement-container{
+  width: 90%;
+  height: 40%;
+  background-color: white;
+  border-radius: 10px;
+  padding-left: 7%;
+  padding-right: 7%;
+  box-shadow: 0px 2px 3px rgb(175, 175, 175);
+}
+
+.announcements-header{
+  font-size: .7rem;
+  font-weight: bold;
+  padding-top: 12%;
+}
+
+.announcements-text{
+  margin-top: 2%;
+}
+
+.line{
+  width: 90%;
+  height: .25%;
+  margin-top: 8%;
+  background-color: black;
+}
+
+.trending-header{
+  font-size: .75rem;
+  font-weight: bold;
+  margin-top: 4vh;
+  margin-left: .25vw;
+}
+
+.bottom{
+  height: 50.5%;
+  margin-top: 3vh;
 }
