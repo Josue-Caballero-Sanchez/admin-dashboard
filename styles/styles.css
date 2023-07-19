@@ -12,7 +12,7 @@
   display: grid;
   grid-template-columns: 1fr 4fr;
   grid-template-rows: 1fr 5fr;
-  height: 140vh;
+  height: 150vh;
   width: 98.7vw;
 }
 
@@ -297,4 +297,22 @@ button{
 .bottom{
   height: 50.5%;
   margin-top: 3vh;
+}
+
+.single-trending-container{
+  display: flex;
+  align-items: center;
+  padding-top: 5.5vh;
+}
+
+.single-trending-container img{
+  width: auto;
+  height: 7vh;
+  border-radius: 50%;
+}
+
+.trending-text-container{
+  display: flex;
+  flex-direction: column;
+  margin-left: .75vw;
 }
